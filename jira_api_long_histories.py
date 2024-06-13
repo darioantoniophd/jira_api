@@ -6,7 +6,13 @@ from datetime import datetime
 
 # Jira credentials
 username = "dantonio@mzptec.com"
-api_token = "ATATT3xFfGF0LLrcTvcNFN28uLylQ74MIgyLOgt6kYRqP79-WxdDy_UFFu2wHTTZsSf2rV7OF3yMQtMArG4EwTQdSioQPLlusMP2OZpOS15a4-_uK9eJrkweZ8YwTADMBPi4OaLg2BcGpl34IBIUxW4mxQshLTpFZzi_hHYC8m8ek2gxPgNOe6Y=AAC48005"
+
+import os
+from dotenv import load_dotenv
+
+load_dotenv("/home/dario/Dropbox/ai/key.env",override=True)
+api_token = os.environ['JIRA_API_KEY']
+
 project_key = "V02"
 
 # Construct the authorization header
