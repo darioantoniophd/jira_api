@@ -1,2 +1,2 @@
 # jira_api
-Programa para conectarse con el gestor de proyectos Jira usado en el desarrollo del Vilas02 de MZP. Extrae información no disponible mediante la GUI de Jira.
+Program to connect with the Jira project manager used in the development of Vilas02 by MZP. It extracts information not available through the Jira GUI.
